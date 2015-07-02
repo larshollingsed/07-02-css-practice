@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+  width: 683px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#column_1 {
+  float: left;
+  width: 85%;
+}
+
+#ad {
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#column_2 {
+  float: left;
+  width: 15%;
+}
+
+#reach {
+  color: #61ABF0;
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 12px;
+}
+
+#get_your {
+  color: #8698A7;
+  font-size: 20px;
+  margin-bottom: 22px;
+}
+
+#button {
+  background: #5DA6ED;
+  color: white;
+  height: 46px;
+  width: 221px;
+  border-radius: 6px;
+  padding-top: 13px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#grey_x {
+  position: relative;
+  top: 7px;
+}
