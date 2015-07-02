@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px darkblue;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#fakebook {
+  background: #3F5497;
+}
+
+#column_1 {
+  float: left;
+  width: 40%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#column_2 {
+  float: left;
+  width: 40%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#column_3 {
+  float: left;
+  width: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.blank {
+  background: white;
+  height: 5vw;
+  width: 90%;
+  margin-right: 15%;
+  border: darkblue 2px solid;
+  border-radius: 2px;  
+}
+
+#checkbox {
+  background: white;
+  height: 3vw;
+  width: 3vw;
+  border: 2px darkblue solid;
+  float: left;
+  margin-right: 9px;
+  border-radius: 5px;
+}
+
+p.under {
+  text-shadow: none;
+  font-weight: normal;
+  color: #9EABCA;
+}
+
+#login_button {
+  background: #9EABCA;
+  color: white;
+  border: darkblue 1px solid;
+  width: 75%;
+  height: 5.5vw;
+  text-align: center;
+  position: relative;
+  top: 47px;
+}
+
+#login_text {
+  position: relative;
+  top: 5px;
+  text-shadow: none;
+}
