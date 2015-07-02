@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.italic {
+  display: inline-block;
+  font-style: italic;
+}
+
+.headline {
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+}
+
+#muffin {
+  width: 100%;
+  display: block;
+}
+
+#broccoli {
+  width: 100%;
+}
+
+#guy {
+  width: 100%;
+}
+
+#column_1 {
+  float: left;
+  width: 32%;
+  border-right: 2px grey solid;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#column_2 {
+  float: left;
+  width: 32%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#column_3 {
+  float: left;
+  width: 32%;
+  border-left: 2px grey solid;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.column_break {
+  float: left;
+  width: 2%;
+}
+
+.vertical_line {
+  background-image: url("http://www.deals4india.in/Images/v-line.png");
+}
