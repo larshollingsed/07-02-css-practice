@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  width: 450px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#article {
+  
+}
+
+#headline {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#author{
+  font-size: 16px;
+  color: grey;
+  padding-left: 10px;
+}
+
+#updated {
+  color: red;
+  padding-left: 10px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#content p {
+  margin: 0;
+}
+
+#photo {
+  float: right;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
