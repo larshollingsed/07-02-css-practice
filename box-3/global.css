@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#box_left{
+  float: left;
+  padding: 10px;
+}
+
+#box_right {
+  float: left;
+  padding: 10px;
+}
+
+#arrows {
+  width: 50%;
+  display: inline-box;
+}
+
+p {
+  margin: 0;
+}
