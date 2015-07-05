@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+  width: 600px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+div#retweet {
+  float: left;
+  width: 10%;
+}
+
+div#content {
+  float: left;
+  width: 80%;
+}
+
+div#date {
+  float: left;
+  width: 10%;
+  color: grey;
+  font-size: smaller;
+}
+
+img#profile_pic {
+  width: 30px;
+  padding-top: 20px;
+}
+
+div#hash {
+  display: inline;
+  color: lightgrey;
+}
+
+div#name {
+  font-weight: bold;
+  display: inline;
+  margin-bottom: 10px;
+}
+
+div#retweeted_you {
+  display: inline;
+}
+
+div#tweet {
+  line-height: 20px;
+  color: grey;
+  margin-top: 10px;
+}
+
+img#retweet_icon {
+  margin-left: 30px;
+}
