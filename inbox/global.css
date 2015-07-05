@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+  width: 260px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+div#column_1 {
+  float: left;
+  width: 10%;
+}
+
+div#column_2 {
+  width: 90%;
+  float: left;
+}
+
+div#red_thingy {
+  background: red;
+  width: 9px;
+  height: 28px;
+}
+
+ul {
+  list-style-type: none;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+li#inbox {
+  color: red;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+li#sent {
+  padding-left: 2px;
+}
+
+li#recently {
+  background: #E5E5E5;
+  width: 100%;
+  padding-left: 40px;
+}
+
+li.indented {
+  padding-left: 40px;
+}
+
+li#drafts {
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+li#snoozed {
+  padding-left: 20px;
+}
